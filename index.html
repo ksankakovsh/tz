@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Тестовое задание</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+   
+</head>
+<body>
+
+<section class="block-1">
+<div class="container">
+	<div class="row">
+		<!--навигация -->
+		<nav role="navigation" class="navbar navbar-default navbar-fixed-top">  
+			<div class="container-fluid">
+			    <div class="navbar-header">      
+				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">        
+					<span class="sr-only">Toggle navigation</span>        
+					<span class="icon-bar"></span>        
+					<span class="icon-bar"></span>        
+					<span class="icon-bar"></span>      
+				</button>      
+					   
+				</div>    
+					<div id="navbarCollapse" class="collapse navbar-collapse">      
+						<ul class="nav navbar-nav">        
+							<li class="active"><a href="#">Главная</a></li>        
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Прайс-лист</a></li>        
+							<li><a href="#">Доставка</a></li> 
+							<li><a href="#">Оплата</a></li>     
+						</ul>      
+							    </div>  
+							</div>
+						</nav>
+        
+	</div>
+	
+<!--слайдер -->
+<div class="row">
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <!-- Индикаторы -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/slid-1.jpg"  alt="...">
+    </div>
+    <div class="item">
+      <img src="img/slid-2.jpg"  alt="...">
+    </div>
+    <div class="item">
+      <img src="img/slid-3.jpg"  alt="...">
+    </div>
+  </div>
+  <!-- Элементы управления -->
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Предыдущий</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Следующий</span>
+  </a>
+</div>
+	</div>
+	<div class="row">
+			<div class="col-md-12">
+				<a href="#" class="link-nav slash"> Главная /</a>
+				<a href="#" class="link-nav slash"> Каталог /</a>
+				<a href="#" class="link-nav"> Бытовая техника</a>
+			</div>
+		</div>
+</div>
+</section>
+<section class="block-2">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 hidden-lg hidden-md text-center">
+					<a href="#myModalBox"  class="btn">Обратная связь</a>
+				</div></div>
+		<div class="row">
+			<!--боковое меню для мобилки/планшета-->
+			<div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+				<div id="dl-menu" class="dl-menuwrapper">
+						<button class=""><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button>
+						<ul class="dl-menu">
+							<li class="">
+								<a href="#">Бытовая техника</a>
+								<ul class="dl-submenu">
+									<li class="dl-back"><a href="#">назад</a></li>
+									<li class="">
+										<a href="#">Микроволновки</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Холодильники</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Посудомоечные машины</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Чайники</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="">
+								<a href="#">Мобильная техника</a>
+								<ul class="dl-submenu">
+									<li class="dl-back"><a href="#">назад</a></li>
+									<li>
+										<a href="#">Смартфоны</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Планшеты</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="">
+								<a href="#">Компьютеры</a>
+								<ul class="dl-submenu">
+									<li class="dl-back"><a href="#">назад</a></li>
+									<li>
+										<a href="#">Стационарные омпьютеры</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Ноутбуки</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="">
+								<a href="#">Одежда</a>
+								<ul class="dl-submenu">
+									<li class="dl-back"><a href="#">назад</a></li>
+									<li>
+										<a href="#">Мужская одежда</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Женская одежда</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Детская одежда</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="">
+								<a href="#">Недвижимость</a>
+								<ul class="dl-submenu">
+									<li class="dl-back"><a href="#">назад</a></li>
+									<li>
+										<a href="#">Покупка</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Продажа</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<a href="#">Аренда</a>
+										<ul class="dl-submenu">
+											<li class="dl-back"><a href="#">назад</a></li>
+											
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+						</ul>
+					</div>
+			</div><!--конец бокового мобильного меню-->
+
+		</div>
+		<div class="row">
+			<!--здесь собственно боковое меню-->
+			<div class="col-md-3 hidden-sm hidden-xs">
+				<ul class="nav-stacked">
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle ul-links">Бытовая техника</a>
+						<ul class="dropdown-menu">      
+							<li><a href="#">Микроволновки</a></li> 
+							<li class="divider"></li>     
+							 <li><a href="#">Холодльники</a></li>      
+							 <li class="divider"></li>      
+							 <li><a href="#">Посудомоечные машины</a></li> 
+							 <li class="divider"></li>   
+							 <li><a href="#">Чайники</a></li> 
+							</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle ul-links">Мобильная техника</a>
+						<ul class="dropdown-menu">      
+							<li><a href="#">Смартфоны</a></li> 
+							<li class="divider"></li>     
+							 <li><a href="#">Планшеты</a></li>      
+							</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle ul-links">Копмьютеры</a>
+						<ul class="dropdown-menu">      
+							<li><a href="#">Стационарные компьютеры</a></li> 
+							<li class="divider"></li>     
+							 <li><a href="#">Ноутбуки</a></li>      
+							    
+							 
+							  
+							</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle ul-links">Одежда</a>
+						<ul class="dropdown-menu">      
+							<li><a href="#">Мужская одежда</a></li> 
+							<li class="divider"></li>     
+							 <li><a href="#">Женская одежда</a></li>      
+							 <li class="divider"></li>      
+							 <li><a href="#">Детская одежда</a></li> 
+							 
+							</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle ul-links">Недвижимость</a>
+						<ul class="dropdown-menu">      
+							<li><a href="#">Покупка</a></li> 
+							<li class="divider"></li>     
+							 <li><a href="#">Продажа</a></li>      
+							 <li class="divider"></li>      
+							 <li><a href="#">Аренда</a></li> 
+							 
+							</ul>
+					</li>
+				</ul>
+				<div class="col-md-12">
+					<a href="#myModalBox"  class="btn">Обратная связь</a>
+				</div>
+			</div>
+			
+			<!--карточки с товарами-->
+			<div class="col-md-9">
+				<div class="col-md-4">
+				<figure class="card">
+					<a data-fancybox="gallery" href="img/nophoto.jpg" data-caption="Чайник-1"><img src="img/nophoto.jpg" class="img-responsive photo"></a>
+					<figcaption>
+						<p class="description">Самый клевый чайник, который надо купить!</p>
+						<br>
+						<p class="price">1990 p.</p> <button class="order"><img src="img/basket.png"></button>
+					</figcaption>
+				</figure></div>
+				<div class="col-md-4">
+				<figure class="card">
+					<a data-fancybox="gallery" href="img/nophoto.jpg" data-caption="Чайник-2"><img src="img/nophoto.jpg" class="img-responsive photo"></a>
+					<figcaption>
+						<p class="description">Самый клевый чайник, который надо купить!</p>
+						<br>
+						<p class="price">1990 p.</p> <button class="order"><img src="img/basket.png"></button>
+					</figcaption>
+				</figure></div>
+				<div class="col-md-4">
+				<figure class="card">
+					<a data-fancybox="gallery" href="img/nophoto.jpg" data-caption="Чайник-3"><img src="img/nophoto.jpg" class="img-responsive photo"></a>
+					<figcaption>
+						<p class="description">Самый клевый чайник, который надо купить!</p>
+						<br>
+						<p class="price">1990 p.</p> <button class="order"><img src="img/basket.png"></button>
+					</figcaption>
+				</figure></div>
+				<div class="col-md-4">
+				<figure class="card">
+					<a data-fancybox="gallery" href="img/nophoto.jpg" data-caption="Чайник-4"><img src="img/nophoto.jpg" class="img-responsive photo"></a>
+					<figcaption>
+						<p class="description">Самый клевый чайник, который надо купить!</p>
+						<br>
+						<p class="price">1990 p.</p> <button class="order"><img src="img/basket.png"></button>
+					</figcaption>
+				</figure></div>
+				<div class="col-md-4">
+				<figure class="card">
+					<a data-fancybox="gallery" href="img/nophoto.jpg" data-caption="Чайник-5"><img src="img/nophoto.jpg" class="img-responsive photo"></a>
+					<figcaption>
+						<p class="description">Самый клевый чайник, который надо купить!</p>
+						<br>
+						<p class="price">1990 p.</p> <button class="order"><img src="img/basket.png"></button>
+					</figcaption>
+				</figure></div>
+				<div class="col-md-4"></div>
+				<div class="col-md-12 text-center">
+					<ul class="pagination">
+                    <li class="disabled"><span>«</span></li>
+                    <li class="active"><span>1</span></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">»</a></li>
+                        </ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+
+<!--модалка -->
+<div id="myModalBox" class="modal fade">  
+	<div class="modal-dialog">    
+		<div class="modal-content">           
+			<div class="modal-header">        
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>        <h4 class="modal-title">Свяжитесь с нами, оставив свои данные!</h4>      
+			</div>      
+
+			<div class="modal-body">
+				<form action=""  method="POST">    
+                    <input type="text" class="inp" name="name" required="" placeholder="Введите Ваше имя" pattern="[А-Яа-я]{3,}"><br>
+        
+                    <input type="tel" class="inp" name="phone" id="phone" required="" placeholder="Введите номер телефона" required="" pattern="[0-9]{9}"><br>
+                    <input type="e-mail"  class="inp"  name="e-mail" required="" placeholder="Введите адрес e-mail" required=""><br>
+                    <p><textarea cols="20" rows="5" name="text" style="display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;"></textarea></p>
+                     <input  type="submit" class="sub" value="Отправить" style="cursor:pointer;">
+                     
+                </form>
+			</div>      
+			   
+		</div>  
+	</div>
+</div> 
+
+<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.dlmenu.js"></script> <!-- для бокового мобильного меню -->
+		<script>
+			$(function() {
+				$( '#dl-menu' ).dlmenu();
+			});
+		</script>
+<!-- для модального окошка -->
+<script> 
+$(document).ready(function(){  
+  $(".btn").click(function() {    
+    $("#myModalBox").modal('show');  
+  });
+});
+</script>
+<!-- маска поля с телефоном -->
+<script src="js/jquery.maskedinput.js"></script>
+<script type="text/javascript">
+   jQuery(function($){
+   $("#phone").mask("+375(99) 999-9999");
+   });
+</script>
+<!-- подписи к фото галереи фэнсибокс -->
+<script type="text/javascript">
+	$(document).ready(function() {
+ $('.fancybox').fancybox({
+  beforeShow : function(){
+   this.title =  $(this.element).data("caption");
+  }
+ });
+}); 
+</script>
+</body>
+</html>
